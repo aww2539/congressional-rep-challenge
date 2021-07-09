@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+    margin: 1em;
+}
+
+.everything {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+.basic_info {
+    flex-wrap: wrap;
+}
+
+.district, .affiliation{
+    padding-left: 0em;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1em;
+}
+aside .committee_list {
+    display: flex;
+    flex-direction: column;
+    margin: 1em; 
+    font-size: large;
+    border: solid black;
+    padding: 10px;
+}
+
+aside .bill_links {
+    display: flex;
+    flex-direction: column;
+    margin: 1em; 
+    font-size: large;
+    border: solid black;
+    border-spacing: 1em;
+    padding: 10px;
+}
